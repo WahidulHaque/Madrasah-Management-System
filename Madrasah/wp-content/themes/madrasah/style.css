@@ -1,0 +1,37 @@
+/**
+Theme Name: 	Madrash
+Author: 		OVISLAM
+
+**/
+@media only screen and (min-width: 1200px){
+body {
+    //background: url(img/bg_main.gif) repeat-y scroll center top rgba(0, 0, 0, 0);
+}
+}
+@media only screen and (min-width: 960px){
+	body {
+		//background: url(img/bg_main.gif) repeat-y scroll center top rgba(0, 0, 0, 0);
+	}
+	.footer-artwork {
+    //background: url(img/footer_top_bg.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 84px;
+    margin: 0 auto;
+    width: 1100px;
+    clear: both;
+	}
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #d50000;
+    font-weight: bold;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #000;
+}
+#conid{
+	width:100%;
+}
+#menuid{
+	float: right;
+}
